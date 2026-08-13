@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HIGH TECH PS - PS4/PS5 Exploit Host</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+
+  <header>
+    <div class="symbols"><span>□</span><span>△</span><span>○</span><span>✕</span></div>
+    <h1><span>HIGH TECH PS</span> Exploit Host</h1>
+    <div class="user-tag">Hosted by: HIGH TECH PS</div>
+    <div class="sub-info">PS4 / PS5 Offline Jailbreak & Payloads</div>
+  </header>
+
+  <div class="status-bar">
+    <div id="status-text">جاهز لتشغيل الثغرة... (تم التكشيش للاستخدام أوفلاين)</div>
+    <div class="progress-container">
+      <div id="progress-bar" class="progress-bar"></div>
+    </div>
+  </div>
+
+  <!-- GoldHEN Main Launch Button -->
+  <div class="main-btn-container">
+    <button class="goldhen-btn" onclick="loadPayload('GoldHEN v2.4b16')">⚡ تشغيل GoldHEN v2.4b16 ⚡</button>
+  </div>
+
+  <!-- PS4 Payloads Section -->
+  <h2 class="section-title">🎮 ثغرات وأدوات PS4 (FW 5.00 – 11.02)</h2>
+  <div class="grid">
+    <button class="btn" onclick="loadPayload('GoldHEN v2.3')">GoldHEN v2.3</button>
+    <button class="btn" onclick="loadPayload('HEN v2.1.3')">HEN v2.1.3</button>
+    <button class="btn" onclick="loadPayload('PSFree WebKit')">PSFree WebKit</button>
+    <button class="btn" onclick="loadPayload('Orbis Toolbox')">Orbis Toolbox</button>
+    <button class="btn" onclick="loadPayload('App2USB')">App2USB</button>
+    <button class="btn" onclick="loadPayload('DB Backup')">DB Backup</button>
+    <button class="btn" onclick="loadPayload('DB Restore')">DB Restore</button>
+    <button class="btn" onclick="loadPayload('Game Dumper')">Game Dumper</button>
+    <button class="btn" onclick="loadPayload('FTP Server')">FTP Server</button>
+    <button class="btn" onclick="loadPayload('Disable Updates')">Disable Updates</button>
+    <button class="btn" onclick="loadPayload('Enable Updates')">Enable Updates</button>
+    <button class="btn" onclick="loadPayload('Linux 1GB')">Linux 1GB</button>
+    <button class="btn" onclick="loadPayload('Linux 3GB')">Linux 3GB</button>
+    <button class="btn" onclick="loadPayload('PS4Debug')">PS4Debug</button>
+  </div>
+
+  <!-- PS5 Payloads Section -->
+  <h2 class="section-title">🚀 ثغرات وأدوات PS5 (FW 3.00 – 4.51 / UMTX)</h2>
+  <div class="grid">
+    <button class="btn" onclick="loadPayload('etaHEN PS5')">etaHEN PS5</button>
+    <button class="btn" onclick="loadPayload('UMTX Exploit')">UMTX Exploit</button>
+    <button class="btn" onclick="loadPayload('PS5 KStuff')">PS5 KStuff</button>
+    <button class="btn" onclick="loadPayload('PS5 FTP')">PS5 FTP Server</button>
+  </div>
+
+  <!-- Console Log Terminal -->
+  <div class="console-title">🖥️ شاشة الأوامر والعمليات (Console Output)</div>
+  <pre class="console-log" id="console">[HIGH TECH PS] النظام جاهز. اضغط على الثغرة المطلوبة للبدء...</pre>
+
+  <footer>
+    CSSFontFace & UAF Exploit · Hosted by <span>HIGH TECH PS</span> · Offline Ready
+  </footer>
+
+  <script src="cache.js"></script>
+  <script src="exploit.js"></script>
+</body>
+</html>
