@@ -2,7 +2,7 @@ const CACHE_NAME = 'ps-host-v10';
 const urlsToCache = [
   './',
   './index.html',
-  './goldhen.bin' // قم بتعديل هذا الاسم ليطابق اسم ملف الـ bin الخاص بك
+  './goldhen_10.bin' // قم بتعديل هذا الاسم ليطابق اسم ملف الـ bin الخاص بك
 ];
 
 self.addEventListener('install', (event) => {
